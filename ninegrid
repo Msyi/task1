@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />  
+	<title>九宫格</title>
+	<style type="text/css">
+   *{margin:0;padding:0;list-style: none;}
+		ul{
+			position: absolute;
+			width:100%;
+			height:100%;}
+		li{
+			float:left;
+			background:orange;
+			width:calc(33.3% - 20px);
+			padding-bottom:calc(33.3% - 20px);
+			margin:10px;
+			border-radius:10px;
+
+}
+	</style>
+</head>
+<body>
+<div class="ninegrid">
+	<ul><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li></ul>
+	</div>
+</body>
+</html>
